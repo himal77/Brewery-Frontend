@@ -1,12 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from './Navbar'
 import './Hero.css'
+import Sidebar from './Sidebar'
 
 const Hero = () => {
+
+  const[show, setShow] = useState(false);
+
+  const toggle = () => {
+    setShow(!show)
+  }
+
   return (
     <div className="container">
-      <Navbar></Navbar>
-
+      <Navbar toggle={toggle}></Navbar>
+      <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
         <div className="contentItems">
           <h1>Locally crafted beer</h1>
