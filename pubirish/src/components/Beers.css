@@ -1,4 +1,4 @@
-.beerContainer{
+.beerContainer {
 	/* width: 100vw; */
 	min-height: 100vh;
 	padding: 5rem calc((100vw - 1300px) / 2);
@@ -6,37 +6,38 @@
 	color: #fff;
 }
 
-.beerWrapper{
+.beerWrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
 }
 
-.beerCard{
+.beerCard {
 	margin: 0 2rem;
 	line-height: 2;
 	width: 300px;
 
 }
-.beerImg{
+
+.beerImg {
 	height: 200px;
+	width: 230px;
 	box-shadow: 5px 3px #cea903;
-  width: auto;
 }
 
-.beerHeading{
+.beerHeading {
 	font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;
 	margin-bottom: 5rem;
 }
 
-.beerTitle{
+.beerTitle {
 	font-weight: 400;
 	font-size: 2rem;
 }
 
-.beerInfo{
+.beerInfo {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -44,28 +45,28 @@
 	text-align: center;
 }
 
-.beerDesc{
+.beerDesc {
 	margin-bottom: 1rem;
 }
 
-.beerPrice{
+.beerPrice {
 	margin-bottom: 1rem;
 	font-size: 2rem;
 	margin-top: auto;
 
 }
 
-.beerBtn{
+.beerBtn {
 	font-size: 1rem;
-	padding: 1rem 4rem;
+	padding: 1rem 1rem;
 	border: none;
-		background: #F76D28;
+	background: #F76D28;
 	color: #fff;
 	transition: 0.2 ease-out;
 }
+
 .beerBtn:hover {
 	background: #5203C3;
-
-  transition: 0.2s ease-out;
-  cursor: pointer;
+	transition: 0.2s ease-out;
+	cursor: pointer;
 }
