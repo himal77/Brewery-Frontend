@@ -5,15 +5,15 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className='navbar'>
       <Link to="/">
         <div className='desktop'>Marshmalleo and cakes</div>
       </Link>
       <div className='navicon'>
-          <FaBars className="icon"></FaBars>
-        </div>
+        <FaBars className='icon'></FaBars>
+      </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

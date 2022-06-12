@@ -30,3 +30,11 @@ npm install react-reveal --save
 ```
 
 ## Shortcuts used
+* rafce: 'react arrow function export component'
+* 
+
+### Tutorial from:
+https://www.youtube.com/watch?v=D-GvkpQTkw0&t=62s
+
+### used shortcuts & extension
+* emmet: for snippet code complition
