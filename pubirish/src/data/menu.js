@@ -1,58 +1,58 @@
-import cake1 from '../images/cake1.jpg';
-import cake2 from '../images/cake2.jpg';
-import cake3 from '../images/cake3.jpg';
-import cake4 from '../images/cake4.jpg';
-import cake5 from '../images/cake5.jpg';
-import cake6 from '../images/cake6.jpg';
+import Lager from '../images/beers/Lager.jpg';
+import Pilsner from '../images/beers/Pilsner.jpg';
+import Stout from '../images/beers/Stout.jpg';
+import Gose from '../images/beers/Gose.jpg';
+import Porter from '../images/beers/Porter.jpg';
+import Ale from '../images/beers/Ale.jpg';
 
-export const cakes = [
+export const beers = [
 	{
-		img: cake1,
+		img: Lager,
 		alt: 'Cake',
-		title: 'Strawberry mix',
+		title: 'Lager',
 		desc: 'A bloom of summer strawberries and cream adorned plate.',
-		price: '$29.90',
+		price: '$9.90',
 		button: 'Select',
 	},
 	{
-		img: cake2,
-		alt: 'Cake',
-		title: 'Forest',
+		img: Pilsner,
+		alt: 'Pilsner',
+		title: 'Pilsner',
 		desc: 'Chocolate chiffon with Chantilly, and frosting, garnished with macadamia nuts.',
-		price: '$32.90',
+		price: '$12.90',
 		button: 'Select',
 	},
 	{
-		img: cake3,
-		alt: 'Cake',
-		title: 'French dessert',
+		img: Stout,
+		alt: 'Stout',
+		title: 'Stout',
 		desc: 'Chocolate crème cake with cherries, whip cream frosting and chocolate crumbles.',
-		price: '$29.90',
+		price: '$9.90',
 		button: 'Select',
 	},
 	{
-		img: cake4,
-		alt: 'Cake',
-		title: 'Coffee cake',
+		img: Gose,
+		alt: 'Gose',
+		title: 'Gose',
 		desc:
 			'The yam cake with its sweet glaze was quite the perfect accompaniment to the coffee.',
-		price: '$29.90',
+		price: '$8.90',
 		button: 'Select',
 	},
 	{
-		img: cake5,
-		alt: 'Cake',
-		title: 'Brownie Cake',
+		img: Porter,
+		alt: 'Porter',
+		title: 'Porter',
 		desc: 'Perfectly sized cake with a lots and lots of chocolate, nuts and creme',
-		price: '$39.90',
+		price: '$7.90',
 		button: 'Select',
 	},
 	{
-		img: cake6,
-		alt: 'Cake',
-		title: 'Chocolate mood',
+		img: Ale,
+		alt: 'Ale',
+		title: 'Ale',
 		desc: 'The most favorite birthday cake for kids, with chocolate creme and chips.',
-		price: '$19.90',
+		price: '$8.90',
 		button: 'Select',
 	},
 ];

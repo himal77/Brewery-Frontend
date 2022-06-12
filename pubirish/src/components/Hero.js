@@ -17,11 +17,9 @@ const Hero = () => {
       <Sidebar show={show} toggle={toggle}></Sidebar>
       <div className="content">
         <div className="contentItems">
-          <h1>Locally crafted beer</h1>
+          <h1 className='navHead'>Locally crafted beer</h1>
           <p>
-            This is grain, which any fool can eat,
-            but for which the lord has intended a more divine form of consumption.
-            Let us give praise to our maker and glory to His bounty by learning about beer.
+            This is grain, which any fool can eat,but for which the lord has intended a more divine form of consumption.Let us give praise to our maker and glory to His bounty by learning about beer.
           </p>
           <div className="btn">Book Now</div>
         </div>

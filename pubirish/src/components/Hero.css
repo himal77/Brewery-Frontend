@@ -42,7 +42,7 @@
     line-height: 1;
 }
 
-p {
+.p {
     font-size: clamp(1rem, 1.2rem, 1.4rem);
     margin-bottom: 2rem;
     line-height: 1.3;

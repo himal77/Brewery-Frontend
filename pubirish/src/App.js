@@ -1,15 +1,14 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Sidebar from './components/Sidebar';
+import Beers from './components/Beers';
 
 function App() {
   return (
     <Router>
       <div className="">
         <Hero></Hero>
-        <Sidebar></Sidebar>
+        <Beers id='menu'></Beers>
       </div>
     </Router>
   );

@@ -29,6 +29,13 @@ npm install react-icons --save
 npm install react-reveal --save
 ```
 
+### Dependency error for legacy
+Error: react reveal unable to resolve dependency tree
+```
+npm config set legacy-peer-deps true
+```
+
+
 ## Shortcuts used
 * rafce: 'react arrow function export component'
 * 
